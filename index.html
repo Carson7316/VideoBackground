@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="HTML CSS Video Background Project">
     <meta name="author" content="Carson Faulkner">
+    <!-- Link to my font awesome -->
     <script src="https://kit.fontawesome.com/60d01578c2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Video Background</title>
 </head>
 <body>
-    
+    <section id="main">
+    <div id="video-container">
+        <!-- Autoplay starts the video. Loop causes the video to
+        continously loop the video. Muted removes any sound/audio
+    from the video -->
+        <video src="html (1).mp4"autoplay loop muted></video>
+    </div>
+    <div id="cover"></div>
+    <div id="content"></div>
+    <h1>Carson Faulkner</h1>
+    <h2>Web Developer</h2>
+    <!-- Setting the href value to a ID will take the user to
+    the element with that ID when the link is clicked -->
+    <a href="#about" id="click">About</a>
+    </section>
 </body>
 </html>
